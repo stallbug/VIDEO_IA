@@ -1,0 +1,21 @@
+{
+  "name": "anbo2019-video-engine",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio",
+    "build": "tsc --noEmit",
+    "render:demo": "remotion render src/index.ts AnboShowcase out/anbo2019-showcase.mp4"
+  },
+  "dependencies": {
+    "@remotion/media": "^4.0.0",
+    "remotion": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.0.0"
+  }
+}
